@@ -1,0 +1,834 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#topheading {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+#topheading .box {
+  font-size: 60px;
+  gap: 50px;
+  color: white;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+#topheading .box i {
+  color: silver;
+  font-size: 70px;
+}
+#topheading .box span {
+  color: rgb(0, 128, 0);
+}
+#topheading .social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 500px;
+  margin-top: 50px;
+  font-size: 30px;
+  color: aquamarine;
+}
+
+#navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+#navbar ul li a:hover {
+  background-color: #219B9D;
+  scale: 1;
+}
+
+#mainpage {
+  width: 100%;
+  height: 150vh;
+  background-color: black;
+}
+
+.imp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.imp .pic {
+  background-image: url("./esate3.png");
+  width: 47%;
+  animation: changeimage 10s linear infinite;
+  background-repeat: no-repeat;
+}
+
+@keyframes changeimage {
+  0% {
+    background-image: url("./estate6.jpg");
+  }
+  25% {
+    background-image: url(./estate7.avif);
+  }
+  50% {
+    background-image: url(./estate2.jpeg);
+  }
+  75% {
+    background-image: url(./estate6.jpg);
+  }
+  100% {
+    background-image: url("./estate7.avif");
+  }
+}
+.info {
+  width: 20%;
+  height: 400px;
+  border: 1px solid #fff;
+  padding-left: 20px;
+  background-color: black;
+}
+
+.info h1 {
+  margin-left: 5px;
+  padding-top: 20px;
+  text-decoration: underline;
+  color: #CA7373;
+  font-size: 25px;
+}
+
+.info input {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.info .btn {
+  margin-top: 15px;
+  margin-left: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.info .btn:hover {
+  background-color: cadetblue;
+  color: black;
+  cursor: grab;
+}
+
+.info p {
+  color: white;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.info p span {
+  color: green;
+}
+
+.info p span:hover {
+  text-decoration: underline;
+  cursor: grab;
+}
+
+#endingpoint {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 200px;
+}
+
+.buy {
+  margin-top: 20px;
+  margin-left: 250px;
+  color: #fff;
+  font-size: 40px;
+}
+
+#endingpoint .card1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.buy {
+  color: #CA7373;
+}
+
+.card1:hover {
+  scale: 1.1;
+}
+
+.card1 img {
+  width: 40%;
+  padding-top: 10px;
+}
+
+.card1 h2 {
+  padding-top: 20px;
+  float: right;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.card1 p {
+  padding-top: 10px;
+  color: #859F3D;
+}
+
+.card1 i {
+  font-size: 13px;
+  color: #fff;
+}
+
+.bn1 {
+  margin-top: 15px;
+  margin-left: 35px;
+  background-color: white;
+  color: black;
+}
+
+.bn2 {
+  margin-top: 20px;
+  margin-left: 35px;
+  background-color: white;
+  color: black;
+}
+
+.bn3 {
+  margin-top: 10px;
+  margin-left: 35px;
+  background-color: white;
+  color: black;
+}
+
+.series {
+  padding-left: 60px;
+}
+
+.series h1 {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.series i {
+  color: #219B9D;
+  text-decoration: underline;
+}
+
+.series i span {
+  color: black;
+}
+
+#endpage {
+  width: 100%;
+  height: 700px;
+  border: 1px solid black;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+.remodel {
+  padding-left: 200px;
+  color: #fff;
+  background-color: #CA7373;
+  text-decoration: underline;
+}
+
+.point1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.point1 .text1 {
+  display: flex;
+  width: 50%;
+  height: 200px;
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+.text1 p {
+  margin-left: 30px;
+  color: #fff;
+}
+
+.text1 p span button {
+  font-size: larger;
+}
+
+.point1 .text1 img {
+  width: 200px;
+  height: 200px;
+}
+
+.point1 .text2 {
+  display: flex;
+  width: 50%;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.text2 p {
+  margin-left: 30px;
+  color: #fff;
+}
+
+.text2 p span button {
+  font-size: larger;
+}
+
+.point1 .text2 img {
+  width: 200px;
+  height: 200px;
+}
+
+.news {
+  display: flex;
+}
+
+.news .new1 {
+  width: 20%;
+  height: 150px;
+  border: 1px solid black;
+  float: right;
+}
+
+.text1 p span button {
+  color: black;
+  background-color: #CA7373;
+}
+
+.text1 p span button:hover {
+  background-color: #219B9D;
+  color: black;
+}
+
+.text2 p span button {
+  color: black;
+  background-color: #CA7373;
+}
+
+.text2 p span button:hover {
+  background-color: #219B9D;
+  color: black;
+}
+
+#footbar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 400px;
+}
+
+.foot1 {
+  margin-left: 70px;
+  padding-top: 40px;
+}
+
+.foot1 p span {
+  color: #219B9D;
+}
+
+.foot2 {
+  margin-left: 400px;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.foot2 p span {
+  color: #219B9D;
+}
+
+.foot3 {
+  margin-left: 200px;
+  padding-top: 100px;
+}
+
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 150vh;
+  background-color: black;
+}
+
+.bag {
+  display: flex;
+  padding-top: 20px;
+}
+
+.written {
+  float: left;
+}
+
+.written .first {
+  padding-top: 30px;
+  padding-left: 150px;
+}
+
+.written h1 {
+  font-size: 35px;
+  color: #CA7373;
+  font-weight: bolder;
+  padding-top: 25px;
+  margin-left: 17%;
+}
+
+.first p {
+  color: white;
+}
+
+.second {
+  color: #CA7373;
+  padding-left: 150px;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
+.second span {
+  color: white;
+}
+
+.second span button {
+  color: #CA7373;
+  font-size: larger;
+}
+
+.second span button:hover {
+  color: black;
+  background-color: #219B9D;
+}
+
+.third {
+  color: #CA7373;
+  padding-left: 50px;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
+.third span {
+  color: white;
+}
+
+.fourth {
+  color: #CA7373;
+  padding-left: 50px;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
+.fourth span {
+  color: white;
+}
+
+.guide {
+  padding-left: 150px;
+}
+
+.guide p {
+  color: #fff;
+}
+
+#bo1 {
+  display: flex;
+  gap: 40px;
+}
+
+#bo1 .bo1:hover {
+  scale: 1.1;
+}
+
+#bo1 .bo2:hover {
+  scale: 1.1;
+}
+
+#bo1 .bo3:hover {
+  scale: 1.1;
+}
+
+#bo1 .bo4:hover {
+  scale: 1.1;
+}
+
+#bo1 .bo5:hover {
+  scale: 1.1;
+}
+
+.guide .bn5 {
+  font-size: 20px;
+  color: #CA7373;
+}
+
+.guide .bn5:hover {
+  color: black;
+  background-color: #219B9D;
+}
+
+#selling {
+  width: 100%;
+  height: 70vh;
+  border: 1px solid black;
+  display: flex;
+  background-color: black;
+}
+
+.estimator {
+  width: 100%;
+  color: #CA7373;
+  padding-left: 140px;
+  background-color: black;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
+.sell {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sell .sell1 {
+  background-image: url(./selling1.jpg);
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  margin-top: 40px;
+  animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-image: url(./selling1.jpg);
+  }
+  25% {
+    background-image: url(./page2_img1.jpg);
+  }
+  50% {
+    background-image: url(./selling1.jpg);
+  }
+  75% {
+    background-image: url(./page2_img1.jpg);
+  }
+  100% {
+    background-image: url(./selling1.jpg);
+  }
+}
+.sell1 p {
+  margin-left: 200px;
+  padding-top: 20px;
+  font-size: medium;
+  color: #fff;
+}
+
+.sell1 i {
+  padding-top: 10px;
+  color: #fff;
+}
+
+.sell1 button {
+  margin-left: 250px;
+  font-size: larger;
+  color: #CA7373;
+}
+
+.sell1 button:hover {
+  background-color: #219B9D;
+  color: black;
+}
+
+.contactform {
+  width: 20%;
+  height: 400px;
+  border: 1px solid #fff;
+  padding-left: 10px;
+  background-color: black;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.contactform h1 {
+  margin-left: 5px;
+  padding-top: 20px;
+  text-decoration: underline;
+  color: white;
+  font-size: 25px;
+}
+
+.contactform input {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.contactform .btn {
+  margin-top: 15px;
+  margin-left: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contactform .btn {
+  margin-top: 15px;
+  margin-left: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contactform .btn:hover {
+  background-color: cadetblue;
+  color: black;
+  cursor: grab;
+}
+
+.contactform p {
+  color: white;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.contactform p span {
+  color: green;
+}
+
+.contactform p span:hover {
+  text-decoration: underline;
+  cursor: grab;
+}
+
+#center {
+  width: 100%;
+  height: 70vh;
+  border: 1px solid black;
+  background-color: black;
+}
+
+#center h1 {
+  margin-left: 300px;
+  text-decoration: underline;
+  color: #CA7373;
+}
+
+#center p {
+  margin-left: 300px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+#center .centerpoint {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.centerpoint {
+  margin-left: 300px;
+  padding-top: 20px;
+}
+
+.centerpoint li {
+  padding-left: 70px;
+  color: #fff;
+}
+
+#center button {
+  margin-left: 300px;
+  font-size: larger;
+  color: #CA7373;
+}
+
+#center button:hover {
+  background-color: #219B9D;
+  color: black;
+}
+
+#renting {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid black;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rent h1 {
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: 30px;
+  text-decoration: underline;
+  color: #CA7373;
+}
+
+.rent1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  padding-top: 40px;
+}
+
+.rent1 p {
+  padding-left: 20px;
+  color: #fff;
+}
+
+.rent .rentbn {
+  margin-left: 140px;
+  margin-top: 20px;
+  font-size: larger;
+  color: #CA7373;
+}
+
+.rent .rentbn:hover {
+  color: black;
+  background-color: #219B9D;
+}
+
+.infoten {
+  width: 20%;
+  height: 400px;
+  border: 1px solid #fff;
+  padding-left: 20px;
+  background-color: black;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.infoten h1 {
+  margin-left: 5px;
+  padding-top: 20px;
+  text-decoration: underline;
+  color: white;
+  font-size: 25px;
+}
+
+.infoten input {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.infoten .btn {
+  margin-top: 15px;
+  margin-left: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.infoten .btn:hover {
+  background-color: cadetblue;
+  color: black;
+  cursor: grab;
+}
+
+.infoten p {
+  color: white;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.infoten p span {
+  color: green;
+}
+
+.infoten p span:hover {
+  text-decoration: underline;
+  cursor: grab;
+}
+
+#rent2 {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid black;
+  background-color: black;
+}
+
+#rent2 h1 {
+  color: #CA7373;
+  text-decoration: underline;
+}
+
+#rent2 {
+  padding-left: 300px;
+}
+
+#rent2 p {
+  padding-top: 20px;
+  color: #fff;
+}
+
+#rent3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#rent3 .rent4 {
+  color: #CA7373;
+  -webkit-text-decoration: underline solid black;
+          text-decoration: underline solid black;
+  padding-top: 20px;
+}
+
+.rent5 {
+  padding-left: 50px;
+  padding-top: 20px;
+  color: #CA7373;
+  -webkit-text-decoration: underline solid black;
+          text-decoration: underline solid black;
+}
+
+.rent6 {
+  padding-left: 50px;
+  padding-top: 20px;
+  color: #CA7373;
+  -webkit-text-decoration: underline solid black;
+          text-decoration: underline solid black;
+}
+
+#rent2 .b10 {
+  font-size: larger;
+  color: #CA7373;
+}
+
+#rent2 .b10:hover {
+  color: black;
+  background-color: #219B9D;
+}
+
+#finance1 {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid black;
+}
+
+.fin h1 {
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: 30px;
+  text-decoration: underline;
+  color: #CA7373;
+}
+
+.fin1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  padding-top: 40px;
+}
+
+.fin1 p {
+  padding-left: 20px;
+  color: #fff;
+}/*# sourceMappingURL=multi.css.map */
